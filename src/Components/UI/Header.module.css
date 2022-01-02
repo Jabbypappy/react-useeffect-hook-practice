@@ -1,0 +1,22 @@
+.header {
+  background-color: rgb(93, 41, 110);
+  padding: 1.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.actions {
+  margin-left: auto; /* Move these items all the way to the right and 'auto'matically spaces them */
+  display: flex;
+  column-gap: 1rem;
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
